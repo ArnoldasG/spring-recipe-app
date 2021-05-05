@@ -52,5 +52,7 @@ public class Ingredient {
 
     public void setRecipe(Recipe recipe) {
         this.recipe = recipe;
+
+
     }
 }

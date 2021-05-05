@@ -109,7 +109,17 @@ public class Recipe {
         return notes;
     }
 
+    public Set<Ingredient> getIngredients() {
+        return ingredients;
+    }
+
+    public void setIngredients(Set<Ingredient> ingredients) {
+        this.ingredients = ingredients;
+    }
+
     public void setNotes(Notes notes) {
         this.notes = notes;
+
+
     }
 }
